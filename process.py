@@ -84,7 +84,7 @@ def process(levels, output):
     sentimentJson = json.dumps(sentiments)
     htmlOutput = json2html.json2html.convert(json = sentimentJson)
     with open(output + ".html", "w") as out_file:
-        print(htmlOutput, out_file)
+        out_file.write(htmlOutput)
 
     print("Summary information generated in ", output + ".html")
     
