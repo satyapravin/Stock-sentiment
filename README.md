@@ -14,6 +14,8 @@ You could face issues with nltk punkt. If that occurs, please do following in py
 nltk.download('punkt')
 ```
 
+Since we cannot store large pre-trained ML models on GitHub, please download [model](https://drive.google.com/file/d/1Gv-ZiXcfftTtpRGWRVT6yRv1eicJWNJ5/view?usp=sharing) into models folder.
+
 ## Getting sentiment
 We provide a script to quickly get sentiment predictions. 
 
