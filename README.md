@@ -12,6 +12,7 @@ You could face issues with nltk punkt. If that occurs, please do following in py
 
 ```import nltk
 nltk.download('punkt')
+```
 
 ## Getting sentiment
 We provide a script to quickly get sentiment predictions. 
